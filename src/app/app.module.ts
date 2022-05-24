@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app-component/app.component';
 import {AppHeader } from './components/header/header.component';
 import { Footer } from './components/footer/footer';
+import { Body } from './components/main/body-component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,6 @@ import { Footer } from './components/footer/footer';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent, AppHeader, Footer]
+  bootstrap: [AppComponent, AppHeader, Footer, Body]
 })
 export class AppModule { }
